@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page-3</title>
+   
+    <script src="https://kit.fontawesome.com/566248977b.js" crossorigin="anonymous"></script>
+    <style>
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color:#F7F7F7 ;
+    width: 1320px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1000px;
+    border: 1px solid #ededed ;
+}
+.tasklist{
+    width: 1320px;
+    height: 74px;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 100px;
+    
+}
+.task{
+    font-size: 40px; 
+      
+    
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1366px;
+}
+.parenttwo{
+    display: flex;
+    width: 500px;
+    height: 137px;
+    gap: 194px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 50px;
+}
+
+.child{
+    display: flex;
+    text-decoration: none;
+    gap: 15px;
+    border: none;
+    background-color:#F7F7F7 ;
+    color: #424242;
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.addtask
+{ 
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:#F7F7F7 ;
+    text-decoration: none;
+    color: #424242;
+    height: 50px;
+    width: 215px;
+   
+    
+} 
+.last{
+    margin-top: 34px;
+}
+.square p{
+    color: #00A5EC;
+    margin-left: 30px;
+    margin-top: 34px;
+    font-size: 23px;
+    margin-bottom: 27px;
+}
+.side2{
+    margin-top: 5px;
+    color: #C2C2C2;
+}
+.square:hover{
+    box-shadow: 1px 1px 20px gray;
+}
+.square{
+    width: 480px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.side
+{
+    font-size: 18px;
+    width: 165px;
+    height: 85px;
+    gap: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.side4{
+    color: #424242;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 675px;
+    background-color: #F7F7F7;
+    width: 1320px;
+    text-decoration: none;
+}
+.box{
+    width: 500px;
+    height: 338px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 230px;
+}
+
+.box:hover{
+    box-shadow: 1px 1px 20px grey ;
+}
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="main">
+     <nav class="tasklist">
+         <a href="./flex4.html" style="text-decoration: none;">  <span class="task"> <span  style="color: black; margin-left: 137px;">Tasks</span> <span style="color: #00A5EC;">List</span></h1></span></a>
+        </nav>
+    <div class="parent">    
+         <div class="parenttwo">
+            <a class="child"  href="./flex4.html">
+                <div class="logo">
+                    <i class="fa-solid fa-circle-arrow-left" style="color: #424242; font-size: 35px;"></i>
+                </div>
+                
+                   <span style="font-size: 25px;"> Back</span>
+                
+            </a>
+           
+            <a class="addtask" href="./flex4.html">
+                <div class="logo">
+                    <i class="fa-solid fa-circle-plus" style="color: #74C0FC;"></i>
+                </div>
+                <div>
+                    Add New Items
+                </div>
+            </a>
+        </div>
+    </div>
+
+            <a href="./flex4.html" class="container">
+                <div class="square">
+                    <nav> <p>Trip to Paris</p><hr size="2" color="#F7F7F7" >  
+                    </nav>
+                    <div class="side">
+                    <label for="Visitchurch"></label>
+                    <input type="checkbox" name="Visitchurch" id="Visitchurch" class="side2" checked disabled> <span style="color: #C2C2C2; text-decoration: line-through;" >Visit church</span><br>
+                    <label for="shopping"></label>
+                    <input type="checkbox" name="shopping" id="shopping" class="last"><span class="side4"> Shopping</span>
+                    </div>
+            
+            </div>
+        </a>
+    </a>
+</body>
+</html>
